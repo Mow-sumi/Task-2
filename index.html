@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-view</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://use.fontawesome.com/2542f6a836.js"></script> -->
+    <script src="https://use.fontawesome.com/2542f6a836.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Frequently <br /> Asked Questions</h1>
+        <div class="bar">
+            <h3> How to Import the FAQ section to my site? <i class=" fa fa-plus"></i></h3>
+            <div class="answer">
+                You need to contact with our support team using the live chat option on bottom right corner.
+                Please provide your site details where you want to use the template for reference.
+                <br />
+                Best Regards,<br />
+                WebExperts Marketing
+            </div>
+        </div>
+
+        <div class="bar">
+            <h3> How to Import the FAQ section to my site? <i class=" fa fa-plus"></i></h3>
+            <div class="answer">
+                Our support team will provide you a .json file. Once you’ve received the file you can then
+                go to Elementor editor of your page and from bottom navigation click on Add Template >
+                Import Template. Upload the .json file and click Insert.
+                <br />
+                Best Regards,<br />
+                WebExperts Marketing
+            </div>
+        </div>
+        <div class="bar">
+            <h3> How to Import the FAQ section to my site? <i class=" fa fa-plus"></i></h3>
+            <div class="answer">
+                Once you’ve successfully imported the FAQ Section Template on your site from Elementor
+                editor view, you can then click on the FAQ Widget area then you’ll see a list of options
+                available to you for editing.
+                <br />
+                Best Regards,<br />
+                WebExperts Marketing
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function(){
+        $(".bar").click(function(){
+            $(this).find(".answer").slideToggle();
+        });
+
+        $(".bar").click(function(){
+            $(this).find("i").toggleClass("fa-plus fa-minus");
+        });
+    });
+</script>
+
+</html>

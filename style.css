@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    background: #fff;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+   margin-top: 20px;
+   color: black;
+   font-size: 50px;
+}
+h3{
+    color: #fff;
+}
+.container{
+    width: 50%;
+    color: #fff;
+}
+
+.bar{
+    border-radius: 12px;
+    background: #808080;
+    box-shadow: 5px 5px 10px #fff, -5px -5px #fff;
+    padding: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.answer{
+    color: black;
+    display: none;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    /* box-shadow: inset 5px 5px 10px #6d6d6d, inset -5px -5px #939393; */
+}
